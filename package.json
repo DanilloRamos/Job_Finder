@@ -1,0 +1,38 @@
+{
+  "name": "job_finder",
+  "version": "1.0.0",
+  "description": "Esse sistema é um portal para programadores encontrarem vagas de trabalho",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanilloRamos/cursojsudemy.git"
+  },
+  "keywords": [
+    "dev",
+    "jobs",
+    "dev",
+    "oportunity"
+  ],
+  "author": "Danillo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanilloRamos/cursojsudemy/issues"
+  },
+  "homepage": "https://github.com/DanilloRamos/cursojsudemy#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.2",
+    "handlebars": "^4.7.8",
+    "hbs": "^4.2.0",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
